@@ -1,0 +1,59 @@
+
+.container {
+    width: 50%;
+    height: fit-content;
+    border-radius: 10px;
+    border: 0.3px solid rgba(255, 255, 255, 0.80);
+    background: #202C43;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-left: auto; /* Align to the right */
+    margin-right: 0; /* Reset margin-right */
+}
+
+.container {
+    width: 50%;
+    height: fit-content;
+    border-radius: 10px;
+    border: 0.3px solid rgba(255, 255, 255, 0.80);
+    background: rgba(32, 44, 67, 0.7); /* Adjust the alpha value for transparency */
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-left: auto; /* Align to the right */
+    margin-right: 0; /* Reset margin-right */
+}
+
+
+
+.container h2 {
+    color: #ffcc00; /* Change text color to yellow */
+    opacity: 0.8; /* Adjust opacity to 0.8 */
+    align-self: flex-start; /* Align text to the left */
+    margin-bottom: 16px; /* Increase margin-bottom to 16px */
+}
+
+.close {
+    margin: 12px; /* Increase margin to 12px */
+    right: 20px; /* Adjust right position to 20px */
+    width: 28px; /* Decrease width to 28px */
+    height: 28px; /* Decrease height to 28px */
+}
+
+.close:hover {
+    transform: scale(1.2); /* Increase the scale on hover */
+}
+
+
+.loader {
+    width: 50%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(100, 100, 100, 0.7); /* Add a semi-transparent white background */
+    margin-left: 45%; /* Adjust the margin-left to shift it to the right */
+}
